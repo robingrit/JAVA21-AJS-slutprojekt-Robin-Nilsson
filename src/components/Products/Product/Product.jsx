@@ -10,8 +10,9 @@ import {
 import { AddShoppingCart, CallMissedSharp } from "@material-ui/icons";
 import useStyles from "./styles";
 
-export default Product = ({ product, onAdd }) => {
+export default function Product({ product, onAdd }) {
   const classes = useStyles();
+
   return (
     <Card className={classes.root}>
       <CardMedia
@@ -25,7 +26,7 @@ export default Product = ({ product, onAdd }) => {
             {product.name}
           </Typography>
           <Typography variant="h5" gutterBottom>
-            {product.price}
+            {product.price} kr
           </Typography>
         </div>
         <Typography variant="body2" color="textSecondary">
@@ -34,9 +35,10 @@ export default Product = ({ product, onAdd }) => {
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
         <IconButton onClick={() => onAdd(product)} aria-label="Add to Card">
+          {/* <input type="number"></input> */}
           <AddShoppingCart />
         </IconButton>
       </CardActions>
     </Card>
   );
-};
+}

@@ -32,9 +32,7 @@ function App() {
   };
 
   function logged() {
-    console.log("test");
     setLoggedIn(!loggedIn);
-    console.log(loggedIn);
   }
 
   function changeC() {
@@ -44,8 +42,8 @@ function App() {
   return (
     <div>
       <Navbar cartItems={cartItems} changeC={changeC} />
+      <Info userInfo={userInfo} />
 
-      {/* <Info userInfo={userInfo} /> */}
       <ShopinPage
         onAdd={onAdd}
         loggedIn={loggedIn}
@@ -53,6 +51,7 @@ function App() {
         CartPress={CartPress}
         cartItems={cartItems}
         changeC={changeC}
+        changeUserInfo={changeUserInfo}
       />
     </div>
   );

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url ./ --dist-dir docs",
-    "clean": "del-cli ./dist ./.parcel-cache ./docs"
+    "clean": " ./dist ./.parcel-cache ./docs"
   },
   "keywords": [],
   "author": "",

@@ -11,7 +11,6 @@ export default function MultipleInputs({ changeUserInfo, logged }) {
       ...formData,
       [target.name]: target.value,
     });
-    console.log(formData);
   }
 
   function handleSubmit(event) {

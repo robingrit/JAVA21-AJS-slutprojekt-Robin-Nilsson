@@ -11,20 +11,19 @@ export default function HomePage({
   logged,
   cartItems,
   changeC,
+  changeUserInfo,
 }) {
-  const [userInfo, setUserInfo] = useState({});
   function loggedOut() {
     if (loggedIn && CartPress) {
       logged();
       changeC();
+      changeUserInfo({});
     } else {
       logged();
+      changeUserInfo({});
     }
   }
 
-  function changeUserInfo(newInfo) {
-    setUserInfo(newInfo);
-  }
   function check() {
     if (CartPress) {
       return (
