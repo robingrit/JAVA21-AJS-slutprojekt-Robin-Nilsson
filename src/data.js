@@ -1,44 +1,49 @@
+import airtag from "./image/airtag.png";
+import iphone13 from "./image/iphone-13.jpg";
+import appleStand from "./image/applestand.jpg";
+import applewatch from "./image/applewatch.jpg";
+import macbook from "./image/macbook.jpg";
 const data = {
   products: [
     {
       id: 1,
-      name: "Shoes",
-      description: "Running shoes.",
+      name: "Apple airtag",
+      description:
+        "Tag that tracks your things. but also creepy gadget that been used to tracked others by stalkers",
       price: 5,
-      image:
-        "https://s3.amazonaws.com/nikeinc/assets/84925/Sp19_BB_Nike_Adapt_20181218_NIKE0538_Detail5_rectangle_1600.jpg",
+      image: airtag,
     },
     {
       id: 2,
-      name: "Shoes",
-      description: "computer.",
+      name: "Apple watch",
+      description:
+        "If you forget that you have a clock on you phone you can use apple watch.",
       price: 5,
-      image:
-        "https://s3.amazonaws.com/nikeinc/assets/84925/Sp19_BB_Nike_Adapt_20181218_NIKE0538_Detail5_rectangle_1600.jpg",
+      image: applewatch,
     },
     {
       id: 3,
-      name: "macBook",
-      description: "computer.",
+      name: "Macbook",
+      description:
+        "computer with worse specs than a regular computer but is more expensive but you get the apple logo that dont even light up anymore",
       price: 5,
-      image:
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000",
+      image: macbook,
     },
     {
       id: 4,
-      name: "macBook",
-      description: "computer.",
+      name: "Iphone 13",
+      description:
+        "Next gen of Iphoneapp does the same thing like the last one but cost twice as much.",
       price: 5,
-      image:
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000",
+      image: iphone13,
     },
     {
       id: 5,
-      name: "macBook",
-      description: "computer.",
+      name: "Pro Stand",
+      description:
+        "A very expensive screen holder that cost more than regular computer but aleast it´s apple ",
       price: 5,
-      image:
-        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000",
+      image: appleStand,
     },
   ],
 };
