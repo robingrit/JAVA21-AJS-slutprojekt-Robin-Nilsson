@@ -26,7 +26,7 @@ export default function Product({ product, onAdd }) {
             {product.name}
           </Typography>
           <Typography variant="h5" gutterBottom>
-            {product.price} kr
+            {product.price} $
           </Typography>
         </div>
         <Typography variant="body4" color="textSecondary">

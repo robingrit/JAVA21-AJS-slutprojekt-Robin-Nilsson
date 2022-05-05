@@ -10,7 +10,7 @@ const data = {
       name: "Apple airtag",
       description:
         "Tag that tracks your things. but also creepy gadget that been used to tracked others by stalkers",
-      price: 5,
+      price: 39,
       image: airtag,
     },
     {
@@ -18,7 +18,7 @@ const data = {
       name: "Apple watch",
       description:
         "If you forget that you have a clock on you phone you can use apple watch.",
-      price: 5,
+      price: 500,
       image: applewatch,
     },
     {
@@ -26,7 +26,7 @@ const data = {
       name: "Macbook",
       description:
         "computer with worse specs than a regular computer but is more expensive but you get the apple logo that dont even light up anymore",
-      price: 5,
+      price: 2900,
       image: macbook,
     },
     {
@@ -34,7 +34,7 @@ const data = {
       name: "Iphone 13",
       description:
         "Next gen of Iphoneapp does the same thing like the last one but cost twice as much.",
-      price: 5,
+      price: 1199,
       image: iphone13,
     },
     {
@@ -42,7 +42,7 @@ const data = {
       name: "Pro Stand",
       description:
         "A very expensive screen holder that cost more than regular computer but aleast it´s apple ",
-      price: 5,
+      price: 1300,
       image: appleStand,
     },
   ],
