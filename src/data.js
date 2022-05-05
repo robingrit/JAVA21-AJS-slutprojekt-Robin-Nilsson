@@ -9,7 +9,7 @@ const data = {
       id: 1,
       name: "Apple airtag",
       description:
-        "Tag that tracks your things. but also creepy gadget that been used to tracked others by stalkers",
+        "Tag that tracks your things. but also a creepy gadget that been used by stalkers to track others ",
       price: 39,
       image: airtag,
     },
@@ -33,7 +33,7 @@ const data = {
       id: 4,
       name: "Iphone 13",
       description:
-        "Next gen of Iphoneapp does the same thing like the last one but cost twice as much.",
+        "Next gen of Iphones that does the same thing like the last one but cost twice as much.",
       price: 1199,
       image: iphone13,
     },
