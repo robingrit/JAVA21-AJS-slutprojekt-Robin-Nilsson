@@ -12,6 +12,11 @@ import useStyles from "./styles";
 
 export default function Product({ product, onAdd }) {
   const classes = useStyles();
+  let amount;
+  function handle(event){
+    amount =event.target.valueAsNumber;
+
+  }
 
   return (
     <Card className={classes.root}>
@@ -29,15 +34,17 @@ export default function Product({ product, onAdd }) {
             {product.price} $
           </Typography>
         </div>
-        <Typography variant="body4" color="textSecondary">
+        <Typography variant="body2" color="textSecondary">
           {product.description}
         </Typography>
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
-        <IconButton onClick={() => onAdd(product)} aria-label="Add to Card">
-          {/* <input type="number"></input> */}
+        <IconButton onClick={() => onAdd(product, amount)} aria-label="Add to Card">
+           
           <AddShoppingCart />
+         
         </IconButton>
+        <input type="number" onChange={handle}></input> 
       </CardActions>
     </Card>
   );

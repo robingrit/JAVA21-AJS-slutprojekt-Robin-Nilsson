@@ -1,6 +1,6 @@
 export default function Info({ userInfo }) {
   const { firstName, lastName } = userInfo;
-  console.log(userInfo);
+  
   if (Object.keys(userInfo).length === 0) {
     return (
       <div>

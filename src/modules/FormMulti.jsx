@@ -6,7 +6,7 @@ export default function MultipleInputs({ changeUserInfo, logged }) {
   });
 
   function handleChange({ target }) {
-    // console.log(target.name);
+    
     setFormData({
       ...formData,
       [target.name]: target.value,
@@ -15,8 +15,7 @@ export default function MultipleInputs({ changeUserInfo, logged }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    // const {firstName, lastName, age} = formData;
-    // alert(`Hello, ${firstName} ${lastName}! You are ${age} years young.`);
+   
     changeUserInfo(formData);
     logged();
   }
